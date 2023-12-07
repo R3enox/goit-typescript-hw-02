@@ -13,5 +13,5 @@ enum Weekend {
   Saturday,
 }
 
-const isWeekend = (day: Weekend): boolean => Boolean(day === Weekend.Saturday || day === Weekend.Sunday)
+const isWeekend = (day: Weekend): boolean => day === Weekend.Saturday || day === Weekend.Sunday
 

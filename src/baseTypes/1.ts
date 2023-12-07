@@ -6,5 +6,5 @@ let toggle: boolean = true;
 let empty: null = null;
 let notInitialize: undefined;
 let callback = (a: number): number => { return 100 + a };
-
+console.log('123');
 export {};
